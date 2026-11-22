@@ -6,13 +6,13 @@
 
 LyricBox 是一款免费的 Windows 桌面歌词应用  播放音乐时可以逐字高亮歌词  搭配翻译和音乐频谱  也可以用自己的图片或视频做壁纸
 
-![星空壁纸上的双层歌词效果](preview-starfield.png)
-
 ## 当前版本与下载
 
-桌面版 **1.0.4** 面向 Windows x64    本仓库首批公开歌词时间轴与桌面视觉效果的源码    Windows 安装包和便携包暂未在此发布
+**[下载 1.0.4 已公开源码 ZIP](https://github.com/djlove112/LyricBox/archive/62e198e4c9100d7e58223994a845c5c256da8dd4.zip)**　·　[在线阅读源码](src)
 
-GitHub 的 **Download ZIP** 下载的是源码    如果想体验完整桌面程序  请留意本仓库后续的发布说明
+源码包包含歌词时间轴  桌面运动效果  星空着色器和布局预设    下方提供类库构建方法    Windows x64 安装包和便携包暂未在本仓库发布
+
+![星空壁纸上的双层歌词效果](preview-starfield.png)
 
 ## 桌面版能做什么
 
