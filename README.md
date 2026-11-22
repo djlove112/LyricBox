@@ -1,4 +1,4 @@
-<p align="center"><img src="lyricbox.png" width="92" alt="LyricBox 图标"></p>
+<p align="center"><img src="docs/lyricbox.png" width="92" alt="LyricBox 图标"></p>
 
 # LyricBox
 
@@ -6,13 +6,9 @@
 
 LyricBox 是一款免费的 Windows 桌面歌词应用  播放音乐时可以逐字高亮歌词  搭配翻译和音乐频谱  也可以用自己的图片或视频做壁纸
 
-## 当前版本与下载
+**Windows x64 桌面版 1.0.4**    安装包和便携包暂未在此仓库发布
 
-**[下载 1.0.4 已公开源码 ZIP](https://github.com/djlove112/LyricBox/archive/62e198e4c9100d7e58223994a845c5c256da8dd4.zip)**　·　[在线阅读源码](src)
-
-源码包包含歌词时间轴  桌面运动效果  星空着色器和布局预设    下方提供类库构建方法    Windows x64 安装包和便携包暂未在本仓库发布
-
-![星空壁纸上的双层歌词效果](preview-starfield.png)
+![星空壁纸上的双层歌词效果](docs/preview-starfield.png)
 
 ## 桌面版能做什么
 
@@ -27,33 +23,19 @@ LyricBox 是一款免费的 Windows 桌面歌词应用  播放音乐时可以逐
 <details>
 <summary>查看布局编辑器</summary>
 
-![歌词布局编辑器中的字体与颜色设置](preview-layout.png)
+![歌词布局编辑器中的字体与颜色设置](docs/preview-layout.png)
 
 </details>
-
-## 阅读与构建源码
-
-从 [src](src) 开始    [歌词进度计算](src/LyricProgressCalculator.cs) 把播放位置换算为当前行的进度    [显示时间轴](src/LyricDisplayTimeline.cs) 决定多行模式应滚动到哪一行
-
-| 想了解的效果 | 对应文件 |
-| --- | --- |
-| 壁纸如何摆动 | [摆动轨迹](src/NativeCameraSwayMotion.cs) |
-| 星轨与歌词拖影如何延伸 | [星轨运动历史](src/StarMotionHistory.cs) 和 [拖影运动](src/TrailMotionEnvelope.cs) |
-| 声音如何带动桌面元素 | [律动响应](src/RhythmSpeakerDrive.cs) |
-| 星空如何绘制 | [背景着色器](src/Background.hlsl) |
-| 三份出厂布局如何配置 | [布局预设](src/FactoryLayouts.json) |
-
-安装 .NET 10 SDK 后在仓库根目录运行
-
-```powershell
-dotnet build LyricBox.Core.csproj -c Release
-```
-
-构建产物是包含上述 C# 模块的类库    完整桌面界面和播放器接入组件暂未随本次源码发布
 
 ## 用户数据
 
 安装版将配置和缓存保存在 `%LOCALAPPDATA%\LyricBox\UserData`    便携版保存在程序旁的 `UserData` 文件夹    卸载时可选择保留或删除
+
+## 开发者
+
+在仓库上方打开 [src 源码目录](src) 可阅读歌词时间轴  桌面视觉效果和出厂布局    使用绿色 **Code → Download ZIP** 可下载当前分支
+
+本次公开的 C# 模块可独立构建为类库    [查看源码导览与构建步骤](docs/BUILD.md)
 
 ## 授权
 
