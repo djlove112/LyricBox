@@ -6,15 +6,6 @@
 
 LyricBox 是一款Windows 桌面歌词应用  播放音乐时可以逐句高亮歌词  搭配翻译和音乐频谱  也可以用自己的图片或视频做壁纸
 
-## Windows 桌面版下载
-
-> 当前桌面版本为 **1.0.4**  适用于 Windows x64    此页暂未提供安装包和便携包下载
-
-| 下载入口 | 推荐人群 | 链接 |
-| --- | --- | --- |
-| 夸克网盘 | 使用夸克网盘的 Windows 用户 | [夸克网盘下载](https://pan.quark.cn/s/644ab82cac03) 提取码：5kQ8|
-| 百度网盘 | 使用百度网盘的 Windows 用户 | [百度网盘下载](https://pan.baidu.com/s/1Y9ZXGQfQGsEBON1kSl8Z6Q?pwd=24s5) 提取码: 24s5|
-| GitHub Release | 阅读版本说明或构建公开模块的开发者 | [LyricBox 1.0.4 ](https://github.com/djlove112/LyricBox/releases/tag/v1.0.4-source) |
 
 ![星空壁纸上的双层歌词效果](docs/preview-starfield.png)
 
@@ -38,6 +29,16 @@ LyricBox 是一款Windows 桌面歌词应用  播放音乐时可以逐句高亮�
 ## 用户数据
 
 安装版将配置和缓存保存在 `%LOCALAPPDATA%\LyricBox\UserData`    便携版保存在程序旁的 `UserData` 文件夹    卸载时可选择保留或删除
+
+## Windows 桌面版下载
+
+> 当前桌面版本为 **1.0.4**  适用于 Windows x64    此页暂未提供安装包和便携包下载
+
+| 下载入口 | 推荐人群 | 链接 |
+| --- | --- | --- |
+| 夸克网盘 | 使用夸克网盘的 Windows 用户 | [夸克网盘下载](https://pan.quark.cn/s/644ab82cac03) 提取码：5kQ8|
+| 百度网盘 | 使用百度网盘的 Windows 用户 | [百度网盘下载](https://pan.baidu.com/s/1Y9ZXGQfQGsEBON1kSl8Z6Q?pwd=24s5) 提取码: 24s5|
+| GitHub Release | 阅读版本说明或构建公开模块的开发者 | [LyricBox 1.0.4 ](https://github.com/djlove112/LyricBox/releases/tag/v1.0.4-source) |
 
 ## 开发者
 
