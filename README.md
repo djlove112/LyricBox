@@ -12,8 +12,8 @@ LyricBox 是一款Windows 桌面歌词应用  播放音乐时可以逐句高亮�
 
 | 下载入口 | 推荐人群 | 链接 |
 | --- | --- | --- |
-| 夸克网盘 | 使用夸克网盘的 Windows 用户 | 安装包入口暂未开放 |
-| 百度网盘 | 使用百度网盘的 Windows 用户 | 安装包入口暂未开放 |
+| 夸克网盘 | 使用夸克网盘的 Windows 用户 | [夸克网盘下载](https://pan.quark.cn/s/644ab82cac03) 提取码：5kQ8|
+| 百度网盘 | 使用百度网盘的 Windows 用户 | [百度网盘下载](https://pan.baidu.com/s/1Y9ZXGQfQGsEBON1kSl8Z6Q?pwd=24s5) 提取码: 24s5|
 | GitHub Release | 阅读版本说明或构建公开模块的开发者 | [查看 LyricBox 1.0.4 公开源码版](https://github.com/djlove112/LyricBox/releases/tag/v1.0.4-source) |
 
 ![星空壁纸上的双层歌词效果](docs/preview-starfield.png)
